@@ -1,0 +1,136 @@
+/* global start*/
+html,body
+{
+  padding-top:3px;
+  background-color:white;
+}
+
+body
+{
+  font-size:13px;
+  color:blue;
+}
+
+body,#navigator,#top,#middle,#foot
+{
+  width:1024px;
+  margin:0 auto;
+}
+
+ul
+{
+  padding:0;
+  margin:0;
+  list-style:none;
+}
+
+
+
+a
+{
+  text-decoration:none;
+}
+
+a:link,a:active,a:visited
+{
+  color:blue;
+}
+
+a:hover
+{
+  color:red;
+}
+
+
+.color_gray
+{
+  color:gray;
+}
+
+.color_red
+{
+  color:red;
+}
+
+.color_blue
+{
+  color:blue;
+}
+
+.text_left
+{
+  text-align:left;
+}
+
+.text_center
+{
+  text-align:center;
+}
+
+.text_right
+{
+  text-align:right;
+}
+
+input[type="text"],input[type="password"],textarea
+{
+  padding:5px 2px 5px 10px;
+}
+/*global end*/
+
+/*top start */
+
+#navigator
+{
+  height:20px;
+}
+
+#navigator li
+{
+  float:left;
+  color:green;
+  font-size:18px;
+  width:70px;
+}
+
+#profile
+{
+  float:right;
+  padding-top:5px;
+}
+/*top end*/
+
+
+
+/*foot start*/
+#foot
+{
+  height:50px;
+  margin-top:10px;
+  font-size:14px;
+  border-top:1px solid gray;
+  position:relative;
+}
+
+#foot p
+{
+  position:absolute;
+  top:10px;
+  padding-left:0px;
+  color:gray;
+}
+
+#foot a:hover
+{
+  text-decoration:underline;
+  color:blue;
+}
+
+#foot li
+{
+  float:left;
+  width:60px;
+  margin-top:5px;
+}
+
+/*foot end*/

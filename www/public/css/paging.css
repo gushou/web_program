@@ -1,0 +1,45 @@
+.paging
+{
+  margin:5px auto 5px auto;
+  width:1024px;
+  height:30px;
+}
+
+.paging a
+{
+  font-size:16px;
+  margin-right:8px;
+  padding:5px;
+  text-align:center;
+}
+
+.paging a:hover
+{
+  text-decoration:underline;
+  color:blue;
+}
+
+.paging .selected
+{
+  color:gray;
+  font-weight:bold;
+}
+
+.paging .selected:hover
+{
+  color:gray;
+  text-decoration:none;
+}
+
+.paging input[type="text"]
+{
+  width:30px;
+  height:20px;
+  padding:1px;
+}
+
+#jump_page:hover
+{
+  color:red;
+  text-decoration:none;
+}
